@@ -1,0 +1,68 @@
+
+.button {
+  border-radius: 70px;
+  width: 252px;
+  height: 74px;
+  background: #202224;
+  border: none;
+  cursor: pointer;
+}
+
+.qwertywww {
+  position: absolute;
+  top: 25px;
+  left: 42px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: var(--text-main);
+  cursor: pointer;
+  z-index: 1;
+}
+
+#banner {
+  border: 3px solid #3A9800;
+  border-radius: 70px;
+  width: 252px;
+  height: 74px;
+  background: #202224;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+#banner:hover  .fill {
+  animation-name: fillAction;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.2, .6, .8, .4);
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+#banner:hover  #waveShape {
+  animation-name: waveAction;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0.5s;
+  width: 504px;
+  height: 148px;
+  fill: #3A9800;
+}
+@keyframes fillAction {
+  0% {
+      transform: translate(0, 74px);
+  }
+  100% {
+      transform: translate(0, -5px);
+  }
+}
+@keyframes waveAction {
+  0% {
+      transform: translate(-56px, 0);
+  }
+  100% {
+      transform: translate(0, 0);
+  }
+}
+

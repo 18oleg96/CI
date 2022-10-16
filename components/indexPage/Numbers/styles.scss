@@ -1,0 +1,66 @@
+.numbers {
+  display: flex;
+  color: var(--text-secondary);
+  margin-bottom: 92px;
+
+  .numbersBlockOne {
+    margin-right: 230px;
+    .numbersBlockOneNomber {
+      margin-top: 11px;
+      margin-bottom: 8px;
+      display: flex;
+      font-size: 152px;
+      font-weight: 400;
+      line-height: 185px;
+      .qwerty {
+        width: 295px;
+      }
+    }
+
+    .numbersBlockOneText {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 31px;
+      letter-spacing: 0.04em;
+      font-family: 'Pridi', sans-serif;
+    }
+  }
+
+  .numbersBlockTwo {
+    display: flex;
+    flex-direction: column;
+
+    .numbersBlockTwoUp {
+      margin-bottom: 77px;
+      display: flex;
+    }
+
+    .numbersBlockTwoBottom {
+      display: flex;
+    }
+
+    .blockTwo {
+      width: 244px;
+    }
+
+    .blockTwo:not(:last-child) {
+      margin-right: 119px;
+    }
+
+    .blockTwoNumber {
+      font-size: 80px;
+      font-weight: 500;
+      line-height: 98px;
+    }
+
+    .blockTwoText {
+      margin-top: 4px;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 31px;
+      letter-spacing: 0.04em;
+      font-family: 'Ubuntu', sans-serif;
+    }
+  }
+}
+

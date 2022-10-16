@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+		url('../fonts/Montserrat-SemiBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+		url('../fonts/Montserrat-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+		url('../fonts/Montserrat-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
+		url('../fonts/Ubuntu-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pridi';
+	src: url('../fonts/Pridi-Regular.woff2') format('woff2'),
+		url('../fonts/Pridi-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pridi';
+	src: url('../fonts/Pridi-Light.woff2') format('woff2'),
+		url('../fonts/Pridi-Light.woff') format('woff');
+	font-display: swap;
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proximanova';
+	src: url('../fonts/proximanova_regular.woff2') format('woff2'),
+		url('../fonts/proximanova_regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proximanova';
+	src: url('../fonts/proximanova_bold.woff2') format('woff2'),
+		url('../fonts/proximanova_bold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Ubuntu', 'Pridi', 'Proximanova', sans-serif;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: var(--white);
+	background-color: var(--white);
+  transition: background 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,.h1{
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 66px;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61px;
+}
+
+h3{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  color: var(--text-secondary);
+}
+
+p{
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 22px;
+}

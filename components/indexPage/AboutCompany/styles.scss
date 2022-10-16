@@ -1,0 +1,32 @@
+.aboutCompany {
+  display: flex;
+  background-color: #1A1B1C;
+
+  .aboutCompanyText {
+    padding: 104px 126px 0px 360px;
+
+    .aboutCompanyTextHeading {
+      margin-bottom: 40px;
+      font-size: 50px;
+      font-weight: 500;
+      line-height: 61px;
+      text-transform: uppercase;
+    }
+    .aboutCompanyTextDescription {
+      width: 486px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: var(--text-single);
+      font-family: 'Ubuntu', sans-serif;
+
+      &:not(:last-child) {
+        margin-bottom: 22px;
+      }
+    }
+  }
+  .aboutCompanyImg {
+    width: 931px;
+  }
+}

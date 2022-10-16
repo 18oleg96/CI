@@ -1,0 +1,48 @@
+.directions {
+  margin-bottom: 104px;
+  display: flex;
+  color: var(--text-secondary);
+  font-family: 'Pridi', sans-serif;
+
+
+  .directionsBlockOne {
+    margin-top: 10px;
+    margin-right: 470px;
+    font-family: 'Proximanova', sans-serif;
+
+    .directionsBlockOneHeading {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 31px;
+    }
+  }
+
+  .directionsBlockTwo {
+    font-family: 'Proximanova', sans-serif;
+
+    .directionsLink {
+      display: flex;
+      align-items: center;
+
+      .directionsLinkNumber {
+        margin-right: 27px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #9A9A9E;
+      }
+
+      .directionsLinkText {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 54px;
+        color: var(--text-secondary);
+        transition: all 0.25s ease-out;
+        
+        &:hover {
+          color: var(--btn-primary);
+        }
+      }
+    }
+  }
+}

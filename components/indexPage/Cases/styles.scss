@@ -1,0 +1,192 @@
+.cases {
+  margin-bottom: 114px;
+  color: var( --text-secondary);
+
+  .casesHeading {
+    margin-bottom: 46px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 31px;
+    font-family: 'Pridi', sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .casesBank {
+    margin-bottom: 109px;
+    display: flex;
+
+    .casesBankImg {
+      width: 690px;
+      margin-right: 102px;
+      padding: 32px 48px 20px 40px;
+      background-color: #EDF0F7;
+
+      .casesBankImgName {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: -0.06em;
+        font-family: 'Pridi', sans-serif;
+        text-transform: uppercase;
+      }
+    }
+
+    .casesBankImgPic {
+      padding-left: 55px;
+    }
+
+    .casesBankText {
+      width: 50%;
+      .casesBankTextHeading {
+        margin-bottom: 41px;
+      }
+  
+      .casesBankTextDescription {
+        width: 408px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #4F4F51;
+        font-family: 'Ubuntu', sans-serif;
+  
+        &:not(:last-child) {
+          margin-bottom: 22px;
+        }
+      }
+    }
+  }
+
+  .allCases {
+    margin-bottom: 96px;
+    display: flex;
+
+    .allCasesOne {
+      margin-right: 102px;
+
+      .allCasesOne1 {
+        padding: 32px 40px 0px 40px;
+        width: 690px;
+        height: 411px;
+        background-image: url(~/assets/images/backBot.png);
+        
+        .allCasesOne1Name {
+          margin-bottom: 50px;
+          display: flex;
+          justify-content: space-between;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 17px;
+          letter-spacing: -0.06em;
+          font-family: 'Pridi', sans-serif;
+          text-transform: uppercase;
+          color: var(--text-main);
+        }
+        
+        .allCasesOne1Logo {
+          margin-bottom: 84px;
+        }
+
+        .allCasesOne1Bot {
+          position: absolute;
+          top: 4423px;
+          left: 735px;
+        }
+
+        .allCasesOne1Description {
+          width: 388px;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 22px;
+          font-family: 'Pridi', sans-serif;
+          color: var(--text-main);
+        }
+      }
+
+      .casesHeadingBlock1 {
+        margin-bottom: 114px;
+      }
+
+      .allCasesOne2 {
+        padding: 32px 40px 0px 40px;
+        max-width: 690px;
+        height: 411px;
+        background-image: url(~/assets/images/cases2.png);
+
+        .allCasesOne2Name {
+          margin-bottom: 50px;
+          display: flex;
+          justify-content: space-between;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 17px;
+          letter-spacing: -0.06em;
+          font-family: 'Pridi', sans-serif;
+          text-transform: uppercase;
+          color: var(--text-main);
+        }
+
+        .allCasesOne2Logo {
+          margin-bottom: 67px;
+        }
+
+        .allCasesOne2Description {
+          width: 406px;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 22px;
+          font-family: 'Pridi', sans-serif;
+          color: var(--text-main);
+        }
+      }
+    }
+
+    .allCasesTwo {
+      margin-top: 212px;
+
+      .allCasesOne3 {
+        padding: 32px 40px 0px 40px;
+        max-width: 408px;
+        height: 539px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: -0.06em;
+        font-family: 'Pridi', sans-serif;
+        text-transform: uppercase;
+        background-image: url(~/assets/images/cases3.png);
+      }
+    }
+  }
+
+  .allCasesHeading {
+    margin-top: 28px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: 'Pridi',  sans-serif;
+    color: var( --text-secondary);
+  }
+
+  .allCasesBtn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Pridi', sans-serif;
+    letter-spacing: 0.02em;
+    color: var(--btn-primary);
+
+    .allCasesBtnText {
+      margin-right: 14px;
+    }
+  }
+}

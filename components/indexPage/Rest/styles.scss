@@ -1,0 +1,33 @@
+.rest {
+  padding-top: 124px;
+  padding-bottom: 109px;
+  display: flex;
+  color: var( --text-secondary);
+
+  .restText {
+    margin-right: 126px;
+
+    .restTextHeading {
+      padding-top: 44px;
+      margin-bottom: 34px;
+      max-width: 466px;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    .restTextDescription {
+      width: 486px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #4F4F51;
+      font-family: 'Ubuntu', sans-serif;
+
+      &:not(:last-child) {
+        margin-bottom: 22px;
+      }
+    }
+  }
+}

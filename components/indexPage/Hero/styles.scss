@@ -1,0 +1,39 @@
+.hero {
+  padding: 0 505px 62px 407px;
+  display: flex;
+  background-color: #202224;
+
+  .heroNumber {
+    margin-top: 36px;
+    margin-right: 56px;
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3A9800;
+  }
+
+  .heroHeading {
+    margin-bottom: 24px;
+    letter-spacing: 0.02em;
+  }
+
+  .heroText {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    max-width: 642px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    border-bottom: 1px solid var(--text-single);
+    color: var(--text-single);
+  }
+
+  .heroProblems {
+    margin-bottom: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+  }
+}
