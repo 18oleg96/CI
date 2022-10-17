@@ -21,8 +21,50 @@
           </Drum>
         </li>
       </ul>
-      <div class="navBurger">
-        <img src="~/assets/images/burger.png" alt="burger" class="navBurger">
+      <div @click="openedSidebar = true; openBurger()" class="navBurger">
+        <Drum>
+          <img 
+            src="~/assets/images/burger.png" 
+            alt="burger" 
+            class="navBurger"
+          >
+        </Drum>
+      </div>
+    </div>
+
+    <div class="sidebar" :class="{opened: this.openedSidebar}">
+      <div class="sidebarBlock">
+        <div class="navLogo">
+          <Logo />
+        </div>
+        <div @click="openedSidebar = false; closeBurger()" class="navBurger">
+          <Drum>
+            <img 
+              src="~/assets/images/burger.png" 
+              alt="burger" 
+              class="navBurger"
+            >
+          </Drum>
+        </div>
+      </div>
+      <div class="sidebarBlockList">
+        <ul class="navList">
+          <li class="navListPoint">
+            <Drum>
+              О Компании
+            </Drum>
+          </li>
+          <li class="navListPoint">
+            <Drum>
+              Цены
+            </Drum>
+          </li>
+          <li class="navListPoint">
+            <Drum>
+              Вакансии
+            </Drum>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -36,6 +78,19 @@ export default {
   components: {
       Logo,
       Drum
+  },
+  data() {
+    return {
+      openedSidebar: false
+    }
+  },
+  methods: {
+    openBurger: () => {
+      document.querySelector("body").classList.add("disableScroll");
+    },
+    closeBurger: () => {
+      document.querySelector("body").classList.remove("disableScroll");
+    },
   },
 }
 </script>
