@@ -9,6 +9,7 @@
     <Technologies />
     <Rest />
     <Cases />
+    <ProjectManagement />
     <Footer />
   </div>
 </template>
@@ -23,6 +24,7 @@ import Technologies from "~/components/indexPage/Technologies";
 import AboutCompany from "~/components/indexPage/AboutCompany";
 import Rest from "~/components/indexPage/Rest";
 import Cases from "~/components/indexPage/Cases";
+import ProjectManagement from "~/components/indexPage/ProjectManagement";
 import Footer from "~/components/uikit/Footer";
 
 export default {
@@ -37,6 +39,7 @@ export default {
     AboutCompany,
     Rest,
     Cases,
+    ProjectManagement,
     Footer
   },
 }

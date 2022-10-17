@@ -27,11 +27,6 @@
         width: 132px;
         height: 78px;
         object-fit: contain;
-        transition: all 0.25s ease;
-      }
-
-      &:hover img {
-        transform: scale3d(1.2, 1.2, 1.2);
       }
 
       &:not(:last-child) {

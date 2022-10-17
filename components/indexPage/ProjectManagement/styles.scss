@@ -1,0 +1,102 @@
+.projectManagement {
+  padding-top: 96px;
+  padding-left: 359px;
+  padding-bottom: 96px;
+  background-color: #000;
+
+  .projectManagementHeading {
+    margin-bottom: 24px;
+    width: 752px;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 74px;
+    text-transform: uppercase;
+    color: var(--text-main);
+  }
+
+  .projectManagementGroup {
+    margin-bottom: 70px;
+    display: flex;
+
+    .projectManagementGroupText {
+      margin-right: 56px;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 67px;
+      text-transform: uppercase;
+      color: #9296A3;
+    }
+
+    .projectManagementGroupBtn1 {
+      margin-top: 12px;
+      padding: 0 127px 0 20px;
+      height: 42px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 24px;
+      border: none;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      background:#249BBB;
+      color: #FFFFFF;
+    }
+
+    .projectManagementGroupBtn2 {
+      margin-top: 12px;
+      padding: 0 84px 0 20px;
+      height: 42px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 24px;
+      border: 2px solid #8B38FF;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      letter-spacing: 0.01em;
+      background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.71) 32.7%, rgba(0, 0, 0, 0.84) 55.71%, rgba(0, 0, 0, 0.06) 100%);
+      text-transform: uppercase;
+      color: #8B38FF;
+    }
+  }
+
+  .projectManagementTime {
+    display: flex;
+    flex-direction: column;
+
+    .projectManagementTimeText {
+      margin-bottom: 83px;
+      width: 310px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #9296A3;
+    }
+
+    .projectManagementTimeBlockNumber1 {
+      margin-bottom: 50px;
+      width: 254px;
+      padding-bottom: 2px;
+      font-weight: 400;
+      font-size: 90px;
+      line-height: 70px;
+      letter-spacing: 0.01em;
+      color: #249BBB;
+      border-bottom: 2px solid #249BBB;
+    }
+
+    .qwert {
+      margin-top: 50px;
+      .projectManagementTimeBlockNumber2 {
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 70px;
+        letter-spacing: 0.01em;
+        color: #114958;
+      }
+    }
+  }
+}
