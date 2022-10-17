@@ -1,9 +1,10 @@
 .projectManagement {
+  height: 845px;
   padding-top: 96px;
   padding-left: 359px;
   padding-bottom: 96px;
   background-color: #000;
-  background-image: url(/assets/images/qwerty.png);
+  // background-image: url(/assets/images/qwerty.png);
   background-repeat: no-repeat;
   background-position: right;
   backdrop-filter: blur(16px);
@@ -93,6 +94,7 @@
     }
 
     .qwert {
+      height: 0px;
       margin-top: 50px;
       .projectManagementTimeBlockNumber2 {
         font-weight: 400;
@@ -100,6 +102,99 @@
         line-height: 70px;
         letter-spacing: 0.01em;
         color: #114958;
+      }
+    }
+  }
+
+  .blockCircle {
+    height: 0px;
+
+    .blockCircleOne {
+      height: 0px;
+
+      .circle1 {
+        position: absolute;
+        bottom: 335px;
+        left: 455px;
+      }
+    
+      .circle2 {
+        position: absolute;
+        bottom: 780px;
+        left: 520px;
+      }
+    
+      .circle3 {
+        position: absolute;
+        bottom: 1105px;
+        left: 585px;
+      }
+    
+      .circle4 {
+        position: absolute;
+        bottom: 1305px;
+        left: 635px;
+      }
+
+      .blockCircleOneText {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #9296A3;
+      }
+
+      .circleText1 {
+        position: absolute;
+        bottom: 415px;
+        left: 845px;
+      }
+
+      .circleText2 {
+        position: absolute;
+        bottom: 360px;
+        left: 955px;
+      }
+
+      .circleText3 {
+        position: absolute;
+        bottom: 300px;
+        left: 900px;
+      }
+
+      .circleText4 {
+        position: absolute;
+        bottom: 245px;
+        left: 960px;
+      }
+    }
+
+    .blockCircleTwo {
+      height: 0px;
+
+      .circle5 {
+        position: absolute;
+        bottom: 335px;
+        left: 985px;
+      }
+    
+      .circle6 {
+        position: absolute;
+        bottom: 780px;
+        left: 1050px;
+      }
+    
+      .circle7 {
+        position: absolute;
+        bottom: 1105px;
+        left: 1110px;
+      }
+    
+      .circle8 {
+        position: absolute;
+        bottom: 1310px;
+        left: 1160px;
       }
     }
   }

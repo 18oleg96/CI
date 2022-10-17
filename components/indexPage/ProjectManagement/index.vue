@@ -29,17 +29,126 @@
           <span class="">
             часов
           </span>
-        </div>
+          <div class="blockCircle">
+            <div class="blockCircleOne">
+              <span class="blockCircleOneText circleText1">
+                руководитель проекта
+              </span>
+              <circle-progress 
+                :size="507" 
+                :percent="83" 
+                :border-width="4" 
+                :border-bg-width="0" 
+                fill-color='#1B85A3'
+                :viewport="true" 
+                class="circle1"
+              />
+              <span class="blockCircleOneText circleText2">
+                аналитик
+              </span>
+              <circle-progress 
+                :size="383" 
+                :percent="64" 
+                :border-width="4" 
+                :border-bg-width="0" 
+                fill-color='#1B85A3'
+                :viewport="true" 
+                class="circle2"
+              />
+              <span class="blockCircleOneText circleText3">
+                проектировщик
+              </span>
+              <circle-progress 
+                :size="259" 
+                :percent="38" 
+                :border-width="4" 
+                :border-bg-width="0" 
+                fill-color='#1B85A3'
+                :viewport="true" 
+                class="circle3"
+              />
+              <span class="blockCircleOneText circleText4">
+                дизайнер                
+              </span>
+              <circle-progress 
+                :size="160" 
+                :percent="73" 
+                :border-width="4" 
+                :border-bg-width="0" 
+                fill-color='#1B85A3'
+                :viewport="true" 
+                class="circle4"
+              />
+            </div>
+            <div class="blockCircleTwo">
+              <circle-progress 
+                :size="507" 
+                :percent="83" 
+                :border-width="4" 
+                :border-bg-width="0" 
+                fill-color='#5715AB'
+                :viewport="true" 
+                class="circle5"
+              />
+              <circle-progress 
+                :size="383" 
+                :percent="64" 
+                :border-width="4" 
+                :border-bg-width="0" 
+                fill-color='#5715AB'
+                :viewport="true" 
+                class="circle6"
+              />
+              <circle-progress 
+                :size="259" 
+                :percent="38" 
+                :border-width="4" 
+                :border-bg-width="0" 
+                fill-color='#5715AB'
+                :viewport="true" 
+                class="circle7"
+              />
+              <circle-progress 
+                :size="160" 
+                :percent="73" 
+                :border-width="4" 
+                :border-bg-width="0" 
+                fill-color='#5715AB'
+                :viewport="true" 
+                class="circle8"
+              />
+            </div>
+          </div>
+        </div> 
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import "vue3-circle-progress/dist/circle-progress.css";
+import CircleProgress from "vue3-circle-progress";
 
 export default {
   components: {
+    CircleProgress
+  },
+  setup() {
+    const percent = ref(75);
 
+    onMounted(() => {
+      setInterval(() => {
+        if (percent.value === 25) {
+          percent.value = 75;
+        } else {
+          percent.value = 25;
+        }
+      }, 1000);
+    });
+
+    return {
+      percent,
+    };
   },
 }
 </script>
