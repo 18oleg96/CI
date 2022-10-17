@@ -1,7 +1,7 @@
 <template>
   <button class="button">
     <div id="banner">
-      <p class="qwertywww">
+      <p class="buttonText">
         <slot />
       </p>
       <div class="fill">
