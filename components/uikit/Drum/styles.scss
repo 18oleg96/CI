@@ -1,0 +1,49 @@
+.drum { 
+  display: inline-block;
+
+  & * {
+    pointer-events: none;
+  }
+
+  &:hover {
+    .wrapDrum {
+      transform: translateY(-100%) !important;
+    }
+  }
+
+  &.active {
+    opacity: 0.5;
+  }
+
+  .containerDrum {
+    overflow: hidden;
+    display: block;
+
+    .wrapDrum {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-content: flex-start;
+      flex-wrap: nowrap;
+      transition: transform 0.2s ease;
+
+      .duplicateDrum {
+        position: absolute;
+        top: 100%;
+      }
+    }
+  }
+  
+  // &.line {
+  //   text-decoration: underline;
+  // }
+
+  &.noLine {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+}

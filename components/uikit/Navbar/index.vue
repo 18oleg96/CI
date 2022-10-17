@@ -6,13 +6,19 @@
     <div class="navRight">
       <ul class="navList">
         <li class="navListPoint">
-          Услуги
+          <Drum>
+            Услуги
+          </Drum>
         </li>
         <li class="navListPoint">
-          Кейсы
+          <Drum>
+            Кейсы
+          </Drum>
         </li>
         <li class="navListPoint">
-          Контакты
+          <Drum>
+            Контакты
+          </Drum>
         </li>
       </ul>
       <div class="navBurger">
@@ -24,10 +30,12 @@
 
 <script>
 import Logo from '~/components/uikit/Logo';
+import Drum from '~/components/uikit/Drum';
 
 export default {
   components: {
       Logo,
+      Drum
   },
 }
 </script>

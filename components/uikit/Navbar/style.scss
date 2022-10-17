@@ -22,6 +22,11 @@
 				line-height: 19.5px;
 				letter-spacing: 0.02em;
 				text-transform: uppercase;
+				transition: all 0.25s ease-out;
+
+				&:hover {
+					color: #3A9800;
+				}
 
 				&:not(:last-child) {
 					margin-right: 48px;

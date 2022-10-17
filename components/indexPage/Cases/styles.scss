@@ -72,6 +72,12 @@
         width: 690px;
         height: 411px;
         background-image: url(~/assets/images/backBot.png);
+
+        &:hover .allCasesOne1Bot {
+          transition: all 0.5s ease-out;
+          top: 4380px;
+          left: 735px;
+        }
         
         .allCasesOne1Name {
           margin-bottom: 50px;
@@ -91,6 +97,7 @@
         }
 
         .allCasesOne1Bot {
+          transition: all 0.5s ease-out;
           position: absolute;
           top: 4423px;
           left: 735px;

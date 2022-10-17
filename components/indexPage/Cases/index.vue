@@ -96,27 +96,27 @@
 
 <script>
 import Container from '~/components/uikit/Container';
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 
 export default {
   components: {
     Container
   },
-  mounted() { 
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.timeline({
-      scrollTrigger: {
-        trigger: ".cases",
-        start: "top-=100 top",
-        scrub: 1,
-      }
-    })
-    .to(".allCasesOne1Bot",  { yPercent: -30, duration:5 }, 0)
-  }
+  // mounted() { 
+  //   gsap.registerPlugin(ScrollTrigger);
+  //   gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: ".cases",
+  //       start: "top-=100 top",
+  //       scrub: 1,
+  //     }
+  //   })
+  //   .to(".allCasesOne1Bot",  { yPercent: -30, duration:5 }, 0)
+  // }
 }
 </script>
 
