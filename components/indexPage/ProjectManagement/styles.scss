@@ -3,6 +3,10 @@
   padding-left: 359px;
   padding-bottom: 96px;
   background-color: #000;
+  background-image: url(/assets/images/qwerty.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  backdrop-filter: blur(16px);
 
   .projectManagementHeading {
     margin-bottom: 24px;

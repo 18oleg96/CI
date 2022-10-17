@@ -28,6 +28,11 @@
       line-height: 22px;
       font-family: 'Proxima Nova', sans-serif;
       color: #000000;
+      transition: all 0.25s ease-out;
+
+      &:hover {
+        color: #7E7E7E;
+      }
     }
 
     .footerTel {
@@ -36,6 +41,11 @@
       line-height: 22px;
       font-family: 'Proxima Nova', sans-serif;
       color: #000000;
+      transition: all 0.25s ease-out;
+
+      &:hover {
+        color: #7E7E7E;
+      }
     }
   }
 
