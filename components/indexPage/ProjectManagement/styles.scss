@@ -1,10 +1,11 @@
 .projectManagement {
-  height: 845px;
+  height: 945px;
   padding-top: 96px;
   padding-left: 359px;
   padding-bottom: 96px;
   background-color: #000;
-  // background-image: url(/assets/images/qwerty.png);
+  background-image: url(/assets/images/back.png);
+  background-size: 1960px;
   background-repeat: no-repeat;
   background-position: right;
   backdrop-filter: blur(16px);
@@ -83,25 +84,35 @@
 
     .projectManagementTimeBlockNumber1 {
       margin-bottom: 50px;
-      width: 254px;
-      padding-bottom: 2px;
       font-weight: 400;
       font-size: 90px;
       line-height: 70px;
       letter-spacing: 0.01em;
       color: #249BBB;
-      border-bottom: 2px solid #249BBB;
     }
 
-    .qwert {
-      height: 0px;
-      margin-top: 50px;
+    .projectManagementTimeBlock2 {
+      margin-top: 23px;
+      padding-top: 20px;
+      width: 254px;
+      display: flex;
+      border-top: 2px solid #249BBB;
+
       .projectManagementTimeBlockNumber2 {
+        margin-right: 15px;
         font-weight: 400;
         font-size: 90px;
         line-height: 70px;
         letter-spacing: 0.01em;
         color: #114958;
+      }
+
+      .projectManagementTimeBlockText2 {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: var(--text-main);
       }
     }
   }
@@ -114,25 +125,25 @@
 
       .circle1 {
         position: absolute;
-        bottom: 335px;
+        bottom: 325px;
         left: 455px;
       }
     
       .circle2 {
         position: absolute;
-        bottom: 780px;
+        bottom: 775px;
         left: 520px;
       }
     
       .circle3 {
         position: absolute;
-        bottom: 1105px;
+        bottom: 1100px;
         left: 585px;
       }
     
       .circle4 {
         position: absolute;
-        bottom: 1305px;
+        bottom: 1300px;
         left: 635px;
       }
 
@@ -147,26 +158,39 @@
 
       .circleText1 {
         position: absolute;
-        bottom: 415px;
+        bottom: 515px;
         left: 845px;
       }
 
       .circleText2 {
         position: absolute;
-        bottom: 360px;
+        bottom: 460px;
         left: 955px;
       }
 
       .circleText3 {
         position: absolute;
-        bottom: 300px;
+        bottom: 400px;
         left: 900px;
       }
 
       .circleText4 {
         position: absolute;
-        bottom: 245px;
+        bottom: 345px;
         left: 960px;
+      }
+
+      .circleBall {
+        position: absolute;
+        bottom: 115px;
+        left: 908px;
+      }
+
+      .circleCentre {
+        position: absolute;
+        bottom: 1411px;
+        left: 681px;
+        z-index: 1;
       }
     }
 
@@ -175,26 +199,72 @@
 
       .circle5 {
         position: absolute;
-        bottom: 335px;
+        bottom: 325px;
         left: 985px;
       }
     
       .circle6 {
         position: absolute;
-        bottom: 780px;
+        bottom: 775px;
         left: 1050px;
       }
     
       .circle7 {
         position: absolute;
-        bottom: 1105px;
+        bottom: 1100px;
         left: 1110px;
       }
     
       .circle8 {
         position: absolute;
-        bottom: 1310px;
+        bottom: 1300px;
         left: 1160px;
+      }
+
+      .blockCircleOneText {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #9296A3;
+      }
+
+      .circleText5 {
+        position: absolute;
+        bottom: 515px;
+        left: 1565px;
+      }
+
+      .circleText6 {
+        position: absolute;
+        bottom: 460px;
+        left: 1565px;
+      }
+
+      .circleText7 {
+        position: absolute;
+        bottom: 400px;
+        left: 1565px;
+      }
+
+      .circleText8 {
+        position: absolute;
+        bottom: 345px;
+        left: 1565px;
+      }
+
+      .circleBall2 {
+        position: absolute;
+        bottom: 115px;
+        left: 1438px;
+      }
+
+      .circleCentre2 {
+        position: absolute;
+        bottom: 1411px;
+        left: 1211px;
+        z-index: 1;
       }
     }
   }

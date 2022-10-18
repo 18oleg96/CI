@@ -22,104 +22,134 @@
         <span class="projectManagementTimeBlockNumber1">
           684
         </span>
-        <div class="qwert">
+        <div class="projectManagementTimeBlock2">
           <span class="projectManagementTimeBlockNumber2">
             1165
           </span>
-          <span class="">
+          <span class="projectManagementTimeBlockText2">
             часов
           </span>
-          <div class="blockCircle">
-            <div class="blockCircleOne">
-              <span class="blockCircleOneText circleText1">
-                руководитель проекта
-              </span>
-              <circle-progress 
-                :size="507" 
-                :percent="83" 
-                :border-width="4" 
-                :border-bg-width="0" 
-                fill-color='#1B85A3'
-                :viewport="true" 
-                class="circle1"
-              />
-              <span class="blockCircleOneText circleText2">
-                аналитик
-              </span>
-              <circle-progress 
-                :size="383" 
-                :percent="64" 
-                :border-width="4" 
-                :border-bg-width="0" 
-                fill-color='#1B85A3'
-                :viewport="true" 
-                class="circle2"
-              />
-              <span class="blockCircleOneText circleText3">
-                проектировщик
-              </span>
-              <circle-progress 
-                :size="259" 
-                :percent="38" 
-                :border-width="4" 
-                :border-bg-width="0" 
-                fill-color='#1B85A3'
-                :viewport="true" 
-                class="circle3"
-              />
-              <span class="blockCircleOneText circleText4">
-                дизайнер                
-              </span>
-              <circle-progress 
-                :size="160" 
-                :percent="73" 
-                :border-width="4" 
-                :border-bg-width="0" 
-                fill-color='#1B85A3'
-                :viewport="true" 
-                class="circle4"
-              />
-            </div>
-            <div class="blockCircleTwo">
-              <circle-progress 
-                :size="507" 
-                :percent="83" 
-                :border-width="4" 
-                :border-bg-width="0" 
-                fill-color='#5715AB'
-                :viewport="true" 
-                class="circle5"
-              />
-              <circle-progress 
-                :size="383" 
-                :percent="64" 
-                :border-width="4" 
-                :border-bg-width="0" 
-                fill-color='#5715AB'
-                :viewport="true" 
-                class="circle6"
-              />
-              <circle-progress 
-                :size="259" 
-                :percent="38" 
-                :border-width="4" 
-                :border-bg-width="0" 
-                fill-color='#5715AB'
-                :viewport="true" 
-                class="circle7"
-              />
-              <circle-progress 
-                :size="160" 
-                :percent="73" 
-                :border-width="4" 
-                :border-bg-width="0" 
-                fill-color='#5715AB'
-                :viewport="true" 
-                class="circle8"
-              />
-            </div>
-          </div>
-        </div> 
+        </div>
+      </div> 
+      <div class="blockCircle">
+        <div class="blockCircleOne">
+          <span class="blockCircleOneText circleText1">
+            руководитель проекта
+          </span>
+          <circle-progress 
+            :size="507" 
+            :percent="83" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#1B85A3'
+            :viewport="true" 
+            class="circle1"
+          />
+          <span class="blockCircleOneText circleText2">
+            аналитик
+          </span>
+          <circle-progress 
+            :size="383" 
+            :percent="64" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#1B85A3'
+            :viewport="true" 
+            class="circle2"
+          />
+          <span class="blockCircleOneText circleText3">
+            проектировщик
+          </span>
+          <circle-progress 
+            :size="259" 
+            :percent="38" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#1B85A3'
+            :viewport="true" 
+            class="circle3"
+          />
+          <span class="blockCircleOneText circleText4">
+            дизайнер                
+          </span>
+          <circle-progress 
+            :size="160" 
+            :percent="73" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#1B85A3'
+            :viewport="true" 
+            class="circle4"
+          />
+          <circle-progress 
+            :size="60" 
+            :percent="100" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#1B85A3'
+            class="circleCentre"
+          />
+          <img src="~/assets/images/ball.png" alt="ball" class="circleBall">
+        </div>
+        <div class="blockCircleTwo">
+          <span class="blockCircleOneText circleText5">
+            ?
+          </span>
+          <circle-progress 
+            :size="507" 
+            :percent="83" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#5715AB'
+            :viewport="true" 
+            class="circle5"
+          />
+          <span class="blockCircleOneText circleText6">
+            ?
+          </span>
+          <circle-progress 
+            :size="383" 
+            :percent="64" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#5715AB'
+            :viewport="true" 
+            class="circle6"
+          />
+          <span class="blockCircleOneText circleText7">
+            ?
+          </span>
+          <circle-progress 
+            :size="259" 
+            :percent="38" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#5715AB'
+            :viewport="true" 
+            class="circle7"
+          />
+          <span class="blockCircleOneText circleText8">
+            ?
+          </span>
+          <circle-progress 
+            :size="160" 
+            :percent="73" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#5715AB'
+            :viewport="true" 
+            class="circle8"
+          />
+          <circle-progress 
+            :size="60" 
+            :percent="100" 
+            :border-width="4" 
+            :border-bg-width="0" 
+            fill-color='#1B85A3'
+            class="circleCentre2"
+          />
+          <img src="~/assets/images/ball.png" alt="ball" class="circleBall2">
+        </div>
       </div>
     </div>
   </div>
