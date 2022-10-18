@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="navLogo">
-      <img src="~/assets/images/logo.png" alt="logo" class="logo">
+      <a href="/">
+        <img src="~/assets/images/logo.png" alt="logo" class="logo">
+      </a>
     </div>
   </div>
 </template>

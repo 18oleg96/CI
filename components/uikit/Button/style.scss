@@ -2,9 +2,16 @@
   border-radius: 70px;
   width: 252px;
   height: 74px;
-  background: #202224;
   border: none;
   cursor: pointer;
+
+  &.primary {
+    background: #202224;
+  }
+  
+  &.secondary {
+    background: #181818;
+  }
 }
 
 .buttonText {
@@ -48,6 +55,7 @@
   height: 148px;
   fill: #3A9800;
 }
+
 @keyframes fillAction {
   0% {
       transform: translate(0, 74px);
@@ -64,4 +72,3 @@
       transform: translate(0, 0);
   }
 }
-

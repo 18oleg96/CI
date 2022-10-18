@@ -1,6 +1,6 @@
 <template>
   <button class="button">
-    <div id="banner">
+    <div id="banner" :class="`${color ? color : 'primary'}`">
       <p class="buttonText">
         <slot />
       </p>
@@ -22,7 +22,9 @@ export default {
   name: "Index",
   components: {
 
-
+  },
+  props: {
+    color: String
   },
 }
 </script>

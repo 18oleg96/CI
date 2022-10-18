@@ -59,11 +59,13 @@
               Цены
             </Drum>
           </li>
-          <li class="navListPoint">
-            <Drum>
-              Вакансии
-            </Drum>
-          </li>
+          <a href="/job">
+            <li class="navListPoint">
+              <Drum>
+                Вакансии
+              </Drum>
+            </li>
+          </a>
         </ul>
       </div>
     </div>

@@ -1,0 +1,216 @@
+.accordionBlock{
+  margin-bottom: 64px;
+}
+
+.accordionDescription{
+  padding-top: 95px;
+  margin-bottom: 40px;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: 0.03em;
+  color: var(--text-main);
+}
+
+.accordion{
+  padding-top: 24px;
+  padding-bottom: 18px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bord{
+  border-top: 1px solid #ffffff1e;
+}
+
+.accordionHeading{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0.01em;
+}
+
+.accordionList {
+  margin-top: 11px;
+}
+
+.accordionplus{
+  text-align: right;
+  transition: all 0.25s ease;
+
+  &.opened {
+    transform: rotate(180deg);
+  }
+}
+
+.ac-container{
+    margin: 10px auto 30px auto;
+}
+
+.ac-container label{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    display: block;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 32px;
+    letter-spacing: 0.025em;
+}
+
+.ac-container input{
+    display: none;
+}
+
+.ac-container article{
+    padding-left: 0px;
+    overflow: hidden;
+    height: 0px;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid #ffffff1e;
+
+}
+.ac-container input:checked ~ article {
+    transition: 0.5s ease-in-out;
+    height: 650px;
+}
+
+.ac-container article p{
+    line-height: 23px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.articleBlock {
+
+  .articleBlockHeading {
+    margin-bottom: 30px;
+    color: var(--text-main);
+  }
+
+  .articleBlockList {
+    margin-bottom: 20px;
+    list-style: none;
+
+    &::before {
+      content:"";
+      background-color: orange;
+      width: 8px;
+      height: 8px;
+      float: left;
+      margin-top: 8px;
+      margin-right: 8px;
+      border-radius: 50%;
+    }
+  }
+}
+
+@media (max-width: 1024px){
+
+  .accordionBlock{
+    max-width: 912px;
+    margin-bottom: 135px;
+  }
+
+  .accordionDescription{
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+  }
+
+  .accordionImgWhale{
+    width: 90px;
+    height: 32px;
+  }
+
+  .accordionImg{
+    width: 32px;
+    height: 32px;
+  }
+
+  .accordion{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .number{
+    margin-right: 82px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .accordionHeading{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+  }
+
+  .accordionplus{
+    width: 20px;
+    height: 20px;
+    text-align: right;
+  }
+}
+
+@media (max-width: 576px){
+
+  .accordionBlock{
+    max-width: 335px;
+    margin-bottom: 96px;
+  }
+
+  .accordionDescription{
+    max-width: 256px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .accordionImgWhale{
+    width: 67px;
+    height: 26px;
+  }
+
+  .accordionImg{
+    width: 24px;
+    height: 24px;
+  }
+
+  .accordion{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .number{
+    margin-right: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .accordionHeading{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  .accordionplus{
+    width: 16px;
+    height: 16px;
+    text-align: right;
+  }
+
+  .ac-container article{
+    padding-left: 30px;
+  }
+
+  .ac-container input:checked ~ article {
+    transition: 0.3s ease-in-out;
+    height: 200px;
+  }
+}
