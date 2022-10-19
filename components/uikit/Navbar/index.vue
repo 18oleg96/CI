@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div class="navbar" :class="`${color ? color : 'primary'}`">
     <div class="navLogo">
       <Logo />
     </div>
@@ -15,11 +15,13 @@
             Кейсы
           </Drum>
         </li>
-        <li class="navListPoint">
-          <Drum>
-            Контакты
-          </Drum>
-        </li>
+        <a href="/contacts">
+          <li class="navListPoint">
+            <Drum>
+              Контакты
+            </Drum>
+          </li>
+        </a>
       </ul>
       <div @click="openedSidebar = true; openBurger()" class="navBurger">
         <Drum>
@@ -80,6 +82,9 @@ export default {
   components: {
       Logo,
       Drum
+  },
+  props: {
+    color: String
   },
   data() {
     return {

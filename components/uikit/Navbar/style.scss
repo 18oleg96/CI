@@ -1,10 +1,18 @@
 .navbar {
 	padding: 51px 185px 51px 200px;
 	display: flex;
-	background-color: #202224;
+
+	&.primary {
+    background: #202224;
+  }
+  
+  &.secondary {
+    background: #181818;
+  }
 
 	.navLogo {
 		margin-right: auto;
+		z-index: 10;
 	}
 
 	.navRight {
@@ -15,6 +23,7 @@
 			margin-right: 64px;
 			display: flex;
 			list-style: none;
+			z-index: 10;
 
 			.navListPoint {
 				font-size: 16px;
@@ -40,6 +49,7 @@
 			display: flex;
 			align-items: center;
 			cursor: pointer;
+			z-index: 10;
 		}
 	}
 }

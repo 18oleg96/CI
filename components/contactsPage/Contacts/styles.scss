@@ -1,0 +1,76 @@
+.blockContacts {
+  padding: 150px 192px 354px 395px;
+  display: flex;
+  justify-content: space-between;
+
+  .backgroundImgContacts {
+    position: absolute;
+    top: 70px;
+    left: 179px;
+    z-index: 1;
+
+    .backgroundImgContactsSay {
+      margin-bottom: 91px;
+    }
+  }
+
+  .backgroundSquare {
+    position: absolute;
+    top: 160px;
+    left: 252px;
+    width: 635px;
+    height: 639px;
+    border: 2px solid #6F6F6F;
+    z-index: 2;
+  }
+
+  .blockContactsMailTel {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+
+    .blockContactsTel {
+      margin-bottom: 15px;
+      font-size: 96px;
+      font-weight: 700;
+      line-height: 34px;
+      transition: all 0.25s ease-out;
+      z-index: 10;
+
+				&:hover {
+					color: #3A9800;
+				}
+    }
+
+    .dividerContacts {
+      margin-bottom: 50px;
+      padding-left: 350px;
+      width: 885px;
+      z-index: 1;
+    }
+
+    .blockContactsMail {
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 22px;
+      transition: all 0.25s ease-out;
+
+				&:hover {
+					color: #3A9800;
+				}
+    }
+  }
+
+  .blockContactsLinks {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+
+    .blockContactsLinkSocial {
+      &:not(:last-child) {
+        margin-bottom: 48px;
+      }
+    }
+  }
+}
