@@ -7,7 +7,7 @@
         </p>
       </div>
       <div class="directionsBlockTwo">
-        <a href="#" class="directionsLink">
+        <a href="https://cinet.ru/uslugi/sozdanie-sajtov" target="_blank" class="directionsLink">
           <span class="directionsLinkNumber">
             01
           </span>
@@ -15,7 +15,7 @@
             Создание и продвижение сайтов
           </p>
         </a>
-        <a href="#" class="directionsLink">
+        <a href="https://cinet.ru/czenyi/dizajn" target="_blank" class="directionsLink">
           <span class="directionsLinkNumber">
             02
           </span>
@@ -23,7 +23,7 @@
             Графический дизайн
           </p>
         </a>
-        <a href="#" class="directionsLink">
+        <a href="https://cinet.ru/uslugi/razrabotka-mobilnyix-prilozhenij" target="_blank" class="directionsLink">
           <span class="directionsLinkNumber">
             03
           </span>
@@ -31,7 +31,7 @@
             Разработка мобильный приложений
           </p>
         </a>
-        <a href="#" class="directionsLink">
+        <a href="https://cinet.ru/uslugi/call-czentryi" target="_blank" class="directionsLink">
           <span class="directionsLinkNumber">
             04
           </span>
@@ -39,7 +39,7 @@
             CALL-Центры
           </p>
         </a>
-        <a href="#" class="directionsLink">
+        <a href="https://cinet.ru/uslugi/kontekstnaya-reklama" target="_blank" class="directionsLink">
           <span class="directionsLinkNumber">
             05
           </span>
